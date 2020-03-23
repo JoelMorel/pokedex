@@ -1,0 +1,79 @@
+:root {
+  --mainRed: #de1537;
+  --darkRed: #8f0c25;
+  --blue: #27a4f3;
+  --grey: #dedede;
+  --green: #4ca459;
+}
+
+body {
+  background: whitesmoke;
+}
+
+.pokedex {
+  background: rgb(222, 21, 55);
+  background: radial-gradient(
+    circle,
+    rgba(222, 21, 55, 1) 0%,
+    rgba(143, 12, 37, 1) 100%
+  );
+
+  max-width: 500px;
+  width: 100%;
+  height: 600px;
+  margin: 50px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.pokedex h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 25px 0 30px;
+}
+
+.pokedex h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  margin: 25px;
+  color: whitesmoke;
+}
+
+.poke-img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid var(--grey);
+  display: block;
+  margin: 0 auto;
+  background: whitesmoke;
+  border-radius: 5px;
+}
+
+.poke-img img {
+  width: 100%;
+  height: 100%;
+}
+form {
+  text-align: center;
+}
+input {
+  font-size: 2rem;
+  margin: 25px auto;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid var(--grey);
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  background: var(--blue);
+  border-radius: 5px;
+  cursor: pointer;
+}
